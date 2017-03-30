@@ -25,7 +25,7 @@ definition(
 
 
 preferences {
-    section("Turn on when motion detected:") {
+    section("Turn on when motion is detected:") {
         input "themotion", "capability.motionSensor", required: true, title: "Where?"
         }
     section("Turn off when there's been no movement for"){
